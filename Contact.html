@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<title>Fitness Forward Club</title>
+<meta charset = "utf-8">
+<link rel = "stylesheet" href = "Style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel = "icon" type="image/png" sizes="32x32" href = "favicon-32.png">
+<link rel = "shortcut icon" href = "apple-touch-icon.jpg">
+<link rel = "shortcut icon" href = "android-chrome-192.jpg">
+</head>
+<body>
+
+<div id = "container">
+<header> <h1>Aria's Mexican Cuisine</h1> 
+<p><a href = "about.html"><img src ="logo.png" alt = "logo" height = "220" width = "297"> </a>
+</header>
+
+<nav>
+    <ul>
+	<li><a href ="Reservation.html">Book a Reservation Today!</a> </li>
+	<li><a href ="about.html">About Us</a> </li>
+    </ul>
+</nav>
+</div>
+<main> 
+
+<div id ="contact">
+<h2> Have any questions or Inquiries? Contact us today!</h2>
+<h4 class = "mobile tel link"><a href = "tel: 3477434470">(347)-743-4470</a></h4>
+<h4 class = "tablet-desktop tel num">3477434470</h4>
+<h4> Email Us: <a href ="mailto:Ariasmexicanfood@mail.com">Ariasmexicanfood@mail.com</a></h4>
+<h4> Visit us at: 300 Jay Street, Brooklyn, NY 11201</h4>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.9438950050226!2d-73.99149402466078!3d40.69723327531847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4a6c47643b%3A0x10b5d1cf7b2def98!2s300%20Jay%20St%2C%20Brooklyn%2C%20NY%2011201!5e0!3m2!1sen!2sus!4v1773728449857!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id = "form">
+    <h2>Complete the form below to have your questions answered as soon as possible</h2>
+    <form class = "form-grid">
+        <fieldset>
+            <legend> Customer Information</legend>
+
+            <label for-"fName">Full Name:</label>
+            <input type = "text" name = "fName" Id ="fName" required>
+
+            <label for-"email">Email:</label>
+            <input type = "email" name = "email" Id ="email" required>
+
+            <label for-"phone">Phone:</label>
+            <input type = "tel" name = "phone" Id ="phone" required>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Subject</legend>
+            <label for ="subject">What is your Question about?</label>
+            <select name = "subject" id = "subject">
+                <option value = "menu">Menu</option>
+                <option value = "Tables">Table Size</option>
+                <option value ="pricing">Pricing</option>
+                <option value = "social"> Social Media</option>
+                <option value ="career">Career</option>
+            </select>
+            <label for ="questions">Message</label>
+            <textarea id = "questions" name ="questions" rows = "5" cols ="35"></textarea>
+        </fieldset>
+        <input type ="submit" id ="submit" value = "Submit" class = "btn">
+    </form>
+</div>
+</main>
+<footer>
+<p> &copy; Copyright 2026 All rights reserved</p>
+<p> Ariasmexicanfood@mail.com</p>
+</footer>
+</body>
+</html>
